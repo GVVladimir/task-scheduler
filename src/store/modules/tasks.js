@@ -41,7 +41,7 @@ export default {
                     id: 2,
                     title: 'Задача 2',
                     description: 'Описание 2',
-                    priority: 'Низкий',
+                    priority: 'Срудний',
                     deadline: '2024-12-31',
                     status: 'В работе',
                 },

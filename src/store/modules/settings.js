@@ -1,11 +1,11 @@
 export default {
-    namespaced: true,
-    state: {
-        theme: 'light',
+  namespaced: true,
+  state: {
+    theme: "dark",
+  },
+  mutations: {
+    setTheme(state, theme) {
+      state.theme = theme;
     },
-    mutations: {
-        setTheme(state, theme) {
-            state.theme = theme;
-        },
-    },
+  },
 };
